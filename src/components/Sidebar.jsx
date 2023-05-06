@@ -39,21 +39,7 @@ const Sidebar = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center mb-4">
-                    <button type="button" className="button-sidebar hover:bg-gray-200 focus:outline-none">
-                        <SettingsIcon className="w-6 text-blue-600"/>
-                    </button>
-                    <button type="button" className="button-sidebar hover:bg-gray-200 focus:outline-none">
-                        <span className="absolute top-0 right-0 block w-5 h-5 text-sm text-white bg-red-600 rounded-full">2</span>
-                        <EnvelopeIcon className="w-6 text-blue-600"/>
-                    </button>
-                    <button type="button" className="button-sidebar hover:bg-gray-200 focus:outline-none">
-                        <span className="absolute top-0 right-0 block w-5 h-5 text-sm text-white bg-red-600 rounded-full">5</span>
-                        <BellIcon className="w-6 text-blue-600"/>
-                    </button>
-                </div>
-
-
+            
                 <TaskStats/>
 
                 <div className="px-10 lg:hidden">
@@ -74,10 +60,6 @@ const Sidebar = () => {
                     </ul>
                 </div>
                 <hr className="my-4 border-gray-100 lg:hidden"/>
-
-                <ProjectList/>
-
-                <TeamList/>
 
             </div>
         </aside>

@@ -47,9 +47,6 @@ const Dashboard = () => {
                         <ChartsContainer/>
 
                         <div className="grid-cols-10 gap-6 mb-4 lg:grid">
-                            <div className="col-span-4">
-                                { loadingUsers ? <Spinner height="200" loading={true} /> :  <NewestMembers/> }
-                            </div>
                             <div className="col-span-6">
                                 { loadingTasks ? <Spinner height="200" loading={true} /> :  <NewestTasks/> }
                             </div>

@@ -32,15 +32,7 @@ const ChartsContainer = () => {
                 </Card.Body>
             </Card>
         </div>
-        <div className="md:col-span-12 lg:col-span-4">
-            <Card>
-                <Card.Header>Miembros</Card.Header>
-                <Card.Body>
-                <p className="mb-2 text-gray-400">Miembros con la mayor de actividades completadas.</p>
-                    { loadingTasks ? <Spinner height="200" loading={true}/> :  <TopMembers tasks={tasks}/> }
-                </Card.Body>
-            </Card>
-        </div>
+        
 
     </div>
     )

@@ -78,8 +78,6 @@ const Altheader = () => {
             <div className="flex items-baseline ml-10 space-x-4">
               <Link className={`px-3 py-2 text-base font-semibold text-gray-400 rounded-md hover:text-gray-700 ${isActiveLink("home")}`} to={HOME}>Tablero</Link>
               <Link className={`px-3 py-2 text-base font-semibold text-gray-400 rounded-md hover:text-gray-700 ${isActiveLink("/task")}`} to={TASKS}>Actividades</Link>
-              <Link className={`px-3 py-2 text-base font-semibold text-gray-400 rounded-md hover:text-gray-700 ${isActiveLink("/projects")}`} to={PROJECTS}>Proyectos</Link>
-              <Link className={`px-3 py-2 text-base font-semibold text-gray-400 rounded-md hover:text-gray-700 ${isActiveLink("/team")}`} to={TEAM}>Equipo</Link>
             </div>
           </div>
         </div>
